@@ -1,0 +1,56 @@
+body {
+  background-color: #26282b;
+  color: #dddddd;
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  border: 1px solid #dddddd;
+  border-collapse: collapse;
+  width: 100vw;
+  max-width: 1200px;
+  text-align: center;
+}
+
+th {
+  border: 1px solid #dddddd;
+  resize: horizontal;
+  overflow: auto;
+  min-width: 50px;
+}
+
+td {
+  border: 1px solid #dddddd;
+  resize: horizontal;
+  overflow: auto;
+  min-width: 50px;
+}
+
+input {
+  border: 1px solid #dddddd;
+  border-bottom: none;
+  background-color: #26282b;
+  color: #dddddd;
+  width: 100vw;
+  max-width: 1200px;
+  height: 30px;
+  text-align: center;
+  border-radius: 0;
+  box-sizing: border-box;
+}
+
+input::placeholder {
+  color: #adadad;
+}
+
+select {
+  border: none;
+  width: 100%;
+  background-color: #26282b;
+  color: #dddddd;
+  height: 30px;
+  text-align: center;
+  border-radius: 0;
+  box-sizing: border-box;
+}
